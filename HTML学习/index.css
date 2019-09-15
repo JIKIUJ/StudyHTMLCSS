@@ -1,3 +1,4 @@
 p {color: green; font-size: 18px; text-align: center; }
-h1,h2 { color:darkorange; }
+h1,h2 { color:darkorange; text-align: center; }
 li strong { font-weight: normal; font-style: italic; }
+body { background-color: #fdfcf8; }

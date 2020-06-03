@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="index.css" />
+
+    <link rel="styleshrrt"  href="css/main.css">
+    <link rel="styleshrrt" media="(max-width:500px)"  href="css/mobile.css">
+
+    <style>
+
+        .nav1,.nav2{
+            display: none;
+        }
+
+        #menu_checkbox{
+            display: none;
+        }
+
+        #menu_checkbox:checked ~ .nav1,
+        #menu_checkbox:checked ~ .nav2{
+            transition: transform 2s;
+            display: block;
+        }
+
+
+    </style>
+
 </head>
-
 <body>
+    
 
-    <div id="bg">
+    <label id="menu_toggle" for="menu_checkbox">菜单</label>
+    <input id="menu_checkbox" type="checkbox">
 
+    <div class="nav1">
+        <li>我</li>
+        <li>是</li>
+        <li>菜单</li>
     </div>
 
-    <div class="div1">
-    </div>
-    <div class="div2">
-        </div>
-        <div class="div3">
-            </div>
-
-    <h1>我是h1哦</h1>
-    <h2>学习HTML</h2>
-
-    <p>我是第一个p</p>
-    <p>我是第二个p</p>
-
-    <p><strong>我是粗体字，不是斜体字，因为我不在列表当中，所以这个规则对我不起作用</strong></p>
-
-    <ol>
-        <li><strong>我是斜体字。这是因为 strong 元素位于 li 元素内。</strong></li>
-        <li>我是正常的字体。</li>
-    </ol>
-
-    <hr>
-    <h2>视频开始了</h2>
-
-    <div style="width: 500px;height: 380px;margin: 0px auto;">
-        <iframe width="500px" height="380px" src="http://www.youtube.com/embed/qkt5X_4FJBY" frameborder=0 allowfullscreen></iframe>
+    <div class="nav2">
+        <li>我</li>
+        <li>我</li>
+        <li>我</li>
     </div>
 
 </body>
-
 </html>

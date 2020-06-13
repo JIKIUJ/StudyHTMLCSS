@@ -1,0 +1,10 @@
+p {color: green; font-size: 18px; text-align: center; }
+h1,h2 { color:darkorange; text-align: center; }
+li strong { font-weight: normal; font-style: italic; }
+body { background-color: #fdfcf8; }
+.div1{background-color: red;width: 200px;height: 200px;}
+.div2{background-color: blue;width: 200px;height: 200px;}
+.div3{background-color: yellow;width: 200px;height: 200px;}
+#bg { width: auto; height: 400px; background-image: url('../resources/wallhaven-726934.jpg');
+	background-repeat:no-repeat;
+}

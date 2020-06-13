@@ -1,0 +1,49 @@
+/* 
+.class1  
+{
+    color: black;
+}
+.class2
+{
+    color: blue;
+}
+.class3
+{
+    color: chartreuse;
+}
+*/
+
+h1
+{
+  color: yellow;
+  background-color: yellowgreen;
+  font-size: 100px;
+}
+.zhu
+{
+  float: right;
+  color: white;
+}
+#name 
+{
+  color: violet;
+  font-size: 100px ;
+  background-color: blue;
+}
+p
+{
+  background-color: cyan;
+}
+
+doby p
+{
+ color: darkblue;
+}
+
+
+.dadan ul li {
+
+}
+.dadan p {
+  
+}

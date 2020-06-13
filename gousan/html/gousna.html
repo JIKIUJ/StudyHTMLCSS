@@ -1,0 +1,238 @@
+<!--  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+  <h1  class="1">   挑剔   </h1> 
+<h1   class="2"  >     挑剔 </h1>
+<h1 class="3"> 挑剔  </h1>
+  
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html> 
+ 标准选择器
+ <ui>                    
+     <li>  标签选择器   <li>
+  <ui>
+               --> 
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+
+
+
+
+<style>
+  h1 
+  {
+    color: #00ffff;
+     background:blueviolet;
+     border-radius: 25px;
+  }
+
+  p
+  {
+    font-size: 50    px ;
+   background: chocolate;
+  }
+
+</style>
+</head>
+<body>
+
+<h1>  标题彩色字体  </h1>
+
+   <p>  p标签字体    </p>
+
+  </body>
+
+</html>-->
+
+<!--类选择器 , .class的名称 {} 
+ 可以选择多个标签,也可以复用     
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+    
+    <style>  
+    .zhu
+    {
+      color: coral;
+    }
+     .wuzhu
+     {
+       colo          r: rgb(252, 201, 0);
+     }
+
+
+   </style>
+    
+    </head>
+    <body>
+   <h1 class="zhu">  标题1     </h1>
+    <h1 class= "wuzhu"> 标题2     </h1>
+    <h1 class= "zhu">  标题3    </h1>
+    <p class="wuzhu"  >   标题4  </p>
+
+      
+    </body>
+    </html>-->
+
+    <!--ID选择器
+       #加id名称       id不能被重复使用,必须保证全局唯一
+        优先级:不遵循就近原则,固定的     ,id选择器 > class 选择器 > 标签选择器      
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=, initial-scale=1.0">
+      <title>Document</title>
+    </head>
+
+    <style>
+     #name
+     {
+       color: cyan;
+     }
+    .style1
+    {
+      color: darkorange;
+    }
+     h1
+     {
+       color: forestgreen;
+     }
+
+   </style>
+   
+    <body>
+
+      <h1 id="name" class="style1" > 标题1 </h1>
+      <h1 class="style1"> 标题2  </h1>
+      <h1 class="style1"> 标题3   </h1>
+      <h1>  标题4 </h1>
+      <h1>   标题5  </h1> 
+
+    </body>
+    </html>-
+    <hr>->  -->
+
+ 
+
+      <!--层次选择器
+      <style>
+      
+        /*后代选择器
+           body p
+           {
+             background-color: red;
+           }*/
+
+       /* 子选择器
+        body > p
+        {
+        background-color: royalblue;
+        }*/
+
+       /* 相邻兄弟选择器 
+        .active + p
+        {
+          background-color: springgreen;
+        }*/
+ 
+      /*通用兄弟选择器,当前选中元素向下的所有兄弟元素
+     .active ~ p
+     {
+       background-color: violet;
+     }*/
+ 
+
+   </style>
+  </head>
+
+ <body>
+  <p>0</p>
+  <p class="active">p1</p>
+  <p>p2</p>
+  <p>p3</p>
+  <ui>
+
+       <li>   
+           <p>p4</p>
+       </li>
+       <li>
+             <p>p5</p>  
+       </li>
+        <li>
+             <p>p6</p>
+        </li>
+
+  </ui>
+
+ <p class="active"> 7</p>
+<p>8 </p>
+
+ </body>
+
+ </html> -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=, initial-scale=1.0">
+   <title>Document</title>
+
+   <link rel="stylesheet"  href="../css/main.css">
+
+ </head>
+
+ 
+ <body>
+   
+
+<h1  >  字体大小   </h1>
+<h1 class="zhu"> 类的字体 </h1>
+<p id="name">标签</p>
+<p> 没有类的p标签 </p>
+
+
+
+
+
+
+<div class="dadan">
+  <p>asdasdasdasdasd</p>
+</div>
+
+ </body>
+ </html>

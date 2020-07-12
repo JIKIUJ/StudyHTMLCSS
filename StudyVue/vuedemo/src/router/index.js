@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Content from '@/components/Content'
+import API from '@/components/API'
 import Login from '@/components/Login'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -19,6 +20,11 @@ export default new Router({
       path: '/Content',
       name: 'Content',
       component: Content
+    },
+    {
+      path: '/API',
+      name: 'API',
+      component: API
     },
     {
       path: '/Login',

@@ -8,13 +8,11 @@
         <template slot="title"><i class="el-icon-message"></i>导航一</template>
 
 
-          <el-menu-item index="1-1"><router-link :to="{name:'HelloWorld',params:{id:1}}">hello</router-link>
-</el-menu-item>
-          <el-menu-item index="1-2"><router-link to="/Content">Content</router-link>
-</el-menu-item>
+          <el-menu-item index="1-1"><router-link :to="{name:'HelloWorld',params:{id:1}}">hello</router-link></el-menu-item>
+          <el-menu-item index="1-2"><router-link to="/Content">Content</router-link></el-menu-item>
 
+          <el-menu-item index="1-2"><router-link to="/API">API</router-link></el-menu-item>
 
-          <el-menu-item index="1-3">选项3</el-menu-item>
     
  
       </el-submenu>

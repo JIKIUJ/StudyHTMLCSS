@@ -1,0 +1,43 @@
+/* .dog a
+ {
+     float:left;
+     display: block;
+     height: 50px;
+     width: 50px;
+     border-radius: 10px;
+     background-color: slateblue;
+     text-align: center;
+     color: yellow;
+     text-decoration: none;
+     margin-right: 5px;
+     font: bold 20px/50px Arial;
+ }
+ .b{
+    float:right;
+      display: block;
+    height: 50px;
+    width: 50px;
+   border-radius: 10px;
+   background-color: slateblue;
+    text-align: center;
+    color: yellow;
+   text-decoration: none;
+    margin-right: 5px;
+    font: bold 20px/50px Arial;
+ }*/
+
+/* a[class*=link]{
+color: cyan;
+ }
+ a[id]{
+color:red;
+}
+a[href^=black]{
+color: saddlebrown;
+}
+a[href$=doc]{
+color: seashell;
+}
+a[href$=doc]{
+color: springgreen;
+}*/

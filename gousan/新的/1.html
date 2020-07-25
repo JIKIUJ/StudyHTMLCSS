@@ -47,7 +47,7 @@
 
 <form action="../resources/电路.jpg" method="GET">
 <p>名字:<input type="text" name="uszename" maxlength="3" placeholder="不超过三位汉字"></p>
-<p>密码:<input type="password" name="pwd" maxlength="8" placeholder="" size="30"></p>
+<p>密码:<input type="password" name="pwd" maxlength="8" placeholder="数字" size="30" ></p>
 
 <p>性别:
 <input type="radio" value="boy" name="sex">男
@@ -61,15 +61,61 @@
 <input type="checkbox" value="game" name="hobby" checked>游戏
 </p>
 
+<p>
+<input type="button" value="点击按钮" name="btn">
+<input type="image" src="../resources/电路.jpg" width="" height="" title="零件" >
+
+</p>
 
 
+<select name="列表">
+<option value="china" class="CHINA">中国</option>
+<option value="china">美国</option>
+<option value="china" selected>捷克</option>
+<option value="china">德国</option>
+
+</select>
+
+<p>反馈:
+    
+<textarea name="area"  cols="30" rows="10" placeholder="反馈者死" maxlength="0"></textarea>
+
+</p>
+
+<p><input type="file" name="files">
+    <input type="button" value="上传文件" name="upload">
+</p>
+
+<p>邮箱:
+    <input type="email" id="1">
+</p>
+
+<p>URL:
+    <input type="url">
+</p>
+
+<p>数量:
+    <input type="number" max="100" min="-100" step="10">
+</p>
+
+<p>滑块:
+    <input type="range">
+</p>
 
 
+<p>搜索:
+    <input type="search" name="search" maxlength="10">
+</p>
 
 
+<label for="1">点击输入邮箱</label>
 
+<p><audio src="../music/Vitas - 奉献2016.mp3" controls autoplay></audio></p>
 
-
+<p>
+<input type="submit">
+<input type="reset">
+</p>
 
 
 </form>

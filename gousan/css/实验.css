@@ -41,3 +41,42 @@ color: seashell;
 a[href$=doc]{
 color: springgreen;
 }*/
+
+/*.one{
+   text-indent: 5em;
+   text-indent: 10px;
+}
+
+
+.tow{
+  color: rgba(0,255,255,0.1);
+}
+
+.three{
+  background-color: cyan;
+  height: 300px;
+  line-height: 300px;
+}
+.q{
+  text-align: left;;
+  text-decoration: underline;
+  text-decoration: line-through;
+  text-decoration: overline;
+ 
+}
+
+*/
+/*段落首行缩进,em代表字体*/
+/*段落首行缩进,px代表像素*/
+/*line-height 与高度一致的话,内容会自动居中*/
+/*主题 向 左移动*/
+ /*text-decoration underline 内容下方增加下划线*/
+/*内容增加中划线*/
+/*内容上方增加上划线*/
+
+a[href^=qq]{
+color: aqua;
+}
+.dad a{
+  color: bisque;
+}
